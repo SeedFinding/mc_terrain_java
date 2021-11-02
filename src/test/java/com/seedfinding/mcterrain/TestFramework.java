@@ -1,9 +1,9 @@
 package com.seedfinding.mcterrain;
 
-import kaptainwutax.biomeutils.source.BiomeSource;
-import kaptainwutax.mcutils.block.Block;
-import kaptainwutax.mcutils.state.Dimension;
-import kaptainwutax.mcutils.version.MCVersion;
+import com.seedfinding.mcbiome.source.BiomeSource;
+import com.seedfinding.mccore.block.Block;
+import com.seedfinding.mccore.state.Dimension;
+import com.seedfinding.mccore.version.MCVersion;
 import com.seedfinding.mcterrain.TerrainGenerator;
 import org.junit.jupiter.api.Tag;
 

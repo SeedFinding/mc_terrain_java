@@ -1,12 +1,12 @@
 package com.seedfinding.mcterrain.terrain;
 
 
-import kaptainwutax.biomeutils.source.BiomeSource;
-import kaptainwutax.biomeutils.source.EndBiomeSource;
-import kaptainwutax.mcutils.block.Block;
-import kaptainwutax.mcutils.block.Blocks;
-import kaptainwutax.mcutils.state.Dimension;
-import kaptainwutax.mcutils.version.MCVersion;
+import com.seedfinding.mcbiome.source.BiomeSource;
+import com.seedfinding.mcbiome.source.EndBiomeSource;
+import com.seedfinding.mccore.block.Block;
+import com.seedfinding.mccore.block.Blocks;
+import com.seedfinding.mccore.state.Dimension;
+import com.seedfinding.mccore.version.MCVersion;
 import com.seedfinding.mcterrain.utils.NoiseSettings;
 
 public class EndTerrainGenerator extends SurfaceGenerator {

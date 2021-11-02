@@ -1,8 +1,8 @@
 package com.seedfinding.mcterrain.v1_16.v1_16_5;
 
 import com.seedfinding.mcterrain.TestFramework;
-import kaptainwutax.mcutils.state.Dimension;
-import kaptainwutax.mcutils.version.MCVersion;
+import com.seedfinding.mccore.state.Dimension;
+import com.seedfinding.mccore.version.MCVersion;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;

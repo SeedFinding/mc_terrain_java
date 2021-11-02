@@ -1,16 +1,16 @@
 package com.seedfinding.mcterrain.v1_12;
 
 import com.seedfinding.mcterrain.TestFramework;
-import kaptainwutax.mcutils.block.Block;
-import kaptainwutax.mcutils.state.Dimension;
-import kaptainwutax.mcutils.version.MCVersion;
+import com.seedfinding.mccore.block.Block;
+import com.seedfinding.mccore.state.Dimension;
+import com.seedfinding.mccore.version.MCVersion;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-import static kaptainwutax.mcutils.block.Blocks.AIR;
-import static kaptainwutax.mcutils.block.Blocks.LAVA;
-import static kaptainwutax.mcutils.block.Blocks.NETHERRACK;
+import static com.seedfinding.mccore.block.Blocks.AIR;
+import static com.seedfinding.mccore.block.Blocks.LAVA;
+import static com.seedfinding.mccore.block.Blocks.NETHERRACK;
 
 @DisplayName("Minecraft v1.12 Nether")
 @Tag("v1.12")

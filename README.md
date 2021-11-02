@@ -9,10 +9,10 @@ The whole exposed API holds in TerrainGenerator, calling specific things on Surf
 ```java
 package kaptainwutax.terrainutils;
 
-import kaptainwutax.biomeutils.source.BiomeSource;
-import kaptainwutax.mcutils.block.Block;
-import kaptainwutax.mcutils.state.Dimension;
-import kaptainwutax.mcutils.version.MCVersion;
+import com.seedfinding.mcbiome.source.BiomeSource;
+import com.seedfinding.mccore.block.Block;
+import com.seedfinding.mccore.state.Dimension;
+import com.seedfinding.mccore.version.MCVersion;
 
 public class Main {
 	public static void main(String[] args) {

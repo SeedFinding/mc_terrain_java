@@ -1,22 +1,22 @@
 package com.seedfinding.mcterrain.terrain;
 
-import kaptainwutax.biomeutils.biome.Biome;
-import kaptainwutax.biomeutils.source.BiomeSource;
-import kaptainwutax.mcutils.block.Block;
-import kaptainwutax.mcutils.block.Blocks;
-import kaptainwutax.mcutils.rand.ChunkRand;
-import kaptainwutax.mcutils.state.Dimension;
-import kaptainwutax.mcutils.util.block.BlockBox;
-import kaptainwutax.mcutils.util.data.Pair;
-import kaptainwutax.mcutils.util.data.Triplet;
-import kaptainwutax.mcutils.util.pos.BPos;
-import kaptainwutax.mcutils.version.MCVersion;
-import kaptainwutax.noiseutils.noise.NoiseSampler;
-import kaptainwutax.noiseutils.perlin.OctavePerlinNoiseSampler;
-import kaptainwutax.noiseutils.perlin.PerlinNoiseSampler;
-import kaptainwutax.noiseutils.simplex.OctaveSimplexNoiseSampler;
-import kaptainwutax.noiseutils.utils.MathHelper;
-import kaptainwutax.seedutils.lcg.LCG;
+import com.seedfinding.mcbiome.biome.Biome;
+import com.seedfinding.mcbiome.source.BiomeSource;
+import com.seedfinding.mccore.block.Block;
+import com.seedfinding.mccore.block.Blocks;
+import com.seedfinding.mccore.rand.ChunkRand;
+import com.seedfinding.mccore.state.Dimension;
+import com.seedfinding.mccore.util.block.BlockBox;
+import com.seedfinding.mccore.util.data.Pair;
+import com.seedfinding.mccore.util.data.Triplet;
+import com.seedfinding.mccore.util.pos.BPos;
+import com.seedfinding.mccore.version.MCVersion;
+import com.seedfinding.mcnoise.noise.NoiseSampler;
+import com.seedfinding.mcnoise.perlin.OctavePerlinNoiseSampler;
+import com.seedfinding.mcnoise.perlin.PerlinNoiseSampler;
+import com.seedfinding.mcnoise.simplex.OctaveSimplexNoiseSampler;
+import com.seedfinding.mcnoise.utils.MathHelper;
+import com.seedfinding.mcseed.lcg.LCG;
 import com.seedfinding.mcterrain.TerrainGenerator;
 import com.seedfinding.mcterrain.utils.NoiseSettings;
 
@@ -29,7 +29,7 @@ import java.util.function.Predicate;
 import java.util.function.Supplier;
 import java.util.stream.IntStream;
 
-import static kaptainwutax.noiseutils.utils.MathHelper.maintainPrecision;
+import static com.seedfinding.mcnoise.utils.MathHelper.maintainPrecision;
 import static com.seedfinding.mcterrain.utils.MathHelper.*;
 
 public abstract class SurfaceGenerator extends TerrainGenerator {

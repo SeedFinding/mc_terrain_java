@@ -1,6 +1,6 @@
 package com.seedfinding.mcterrain.utils;
 
-import static kaptainwutax.noiseutils.utils.MathHelper.lerp;
+import static com.seedfinding.mcnoise.utils.MathHelper.lerp;
 
 public class MathHelper {
 

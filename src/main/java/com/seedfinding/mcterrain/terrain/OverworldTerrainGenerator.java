@@ -1,9 +1,9 @@
 package com.seedfinding.mcterrain.terrain;
 
-import kaptainwutax.biomeutils.source.BiomeSource;
-import kaptainwutax.mcutils.block.Block;
-import kaptainwutax.mcutils.block.Blocks;
-import kaptainwutax.mcutils.state.Dimension;
+import com.seedfinding.mcbiome.source.BiomeSource;
+import com.seedfinding.mccore.block.Block;
+import com.seedfinding.mccore.block.Blocks;
+import com.seedfinding.mccore.state.Dimension;
 import com.seedfinding.mcterrain.utils.NoiseSettings;
 
 public class OverworldTerrainGenerator extends SurfaceGenerator {
