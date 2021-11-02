@@ -1,6 +1,6 @@
-# TerrainUtils
+# Minecraft terrain
 
-A library to provide terrain generation, supports only 1.14+ for now
+A dead simple library to simulate Minecraft terrain in pure Java, supports only 1.14+ for now
 
 ## Usage
 
