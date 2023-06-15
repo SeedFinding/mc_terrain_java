@@ -1,3 +1,5 @@
+[![Build Status](https://jenkins.seedfinding.com/buildStatus/icon?job=mc_java%2Fmc_terrain_java)](https://jenkins.seedfinding.com/job/mc_java/job/mc_terrain_java/)
+
 # Minecraft terrain
 
 A dead simple library to simulate Minecraft terrain in pure Java, supports only 1.14+ for now
